@@ -30,8 +30,10 @@
     }
     
     .portlet {
-    background: #313131;
-    border: #313131;
+    /*background: #313131;
+    border: #313131;*/
+    background: #252525;
+    border: none;
     }
     
     #anonymous_element_1, #anonymous_element_2, #anonymous_element_3, #anonymous_element_4, #anonymous_element_5, #anonymous_element_6, #anonymous_element_7, #anonymous_element_8, #anonymous_element_9, #anonymous_element_10, #anonymous_element_11, #anonymous_element_12, #anonymous_element_13, #anonymous_element_14,#anonymous_element_15, #anonymous_element_16, #anonymous_element_17, #anonymous_element_18, #anonymous_element_19, #anonymous_element_20, #anonymous_element_21, #anonymous_element_22, #anonymous_element_23{
@@ -75,7 +77,8 @@
     }
     
     #My_Announcements_Tools {
-    background-color: #313131;
+    /*background-color: #313131;*/
+    background-color: #252525;
     }
     
     .locationPane {
@@ -224,4 +227,8 @@
 
     .path .placeholder, .simplePath .placeholder{
         color: #fff;
+    }
+
+    .breadcrumbs, .paneTabs{
+      border-bottom: none;
     }
