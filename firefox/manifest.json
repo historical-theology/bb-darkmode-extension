@@ -1,23 +1,23 @@
-
 {
+  "description": "default desription",
+  "manifest_version": 2,
+  "name": "bb- css",
+  "version": "0.1",
+  "homepage_url": "https://github.com/KickingAnimal/bb-darkmode-extension",
 
-    "description": "default desription",
-    "manifest_version": 2,
-    "name": "bb- css",
-    "version": "0.1",
-    "homepage_url": "https://github.com/KickingAnimal/bb-darkmode-extension",
-  
-    "background": {
-      "scripts": ["dark-theme.js"]
-    },
-  
-    "page_action": {
-      "browser_style": true
-    },
-    
-    "permissions": [
-      "activeTab",
-      "tabs"
-    ]
-  
-  }
+  "background": {
+    "scripts": ["./dark-theme.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://blackboard.hanze.nl/*", "*://hanze.blackboard.com/*"],
+      "css": ["dark-mode.css"]
+    }
+  ],
+
+  "page_action": {
+    "browser_style": true
+  },
+
+  "permissions": ["activeTab", "tabs"]
+}

@@ -1,9 +1,9 @@
 export const CSS = ```
-.container {
-    border-radius: 10px;
-    background: #252525;
-    border: none;
-    margin: 0px;
+    .container {
+        border-radius: 10px;
+        background: #252525;
+        border: none;
+        margin: 0px;
     }
      
     #module\:_788_1, #module\:_744_1, #module\:_383_1, #module\:_805_1, #module\:_772_1{
@@ -162,5 +162,7 @@ export const CSS = ```
     .actionBarMicro {
     display: none;
     }
-    
+
 ```;
+
+browser.tabs.insertCSS({ details: CSS });
