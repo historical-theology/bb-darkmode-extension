@@ -1,7 +1,7 @@
 {
-  "description": "default desription",
+  "description": "overwrites (most) color css for hanze blackboard to create a dark mode.",
   "manifest_version": 2,
-  "name": "bb- css",
+  "name": "blackboard-darkmode",
   "version": "0.1",
   "homepage_url": "https://github.com/KickingAnimal/bb-darkmode-extension",
 
