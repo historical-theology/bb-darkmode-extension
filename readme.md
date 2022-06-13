@@ -1,4 +1,4 @@
-#Git repo for darkmode extensions, BlackBoard.hanze.nl
+# Git repo for darkmode extensions, BlackBoard.hanze.nl
 
 extension(s) for BlackBoardCollaborate (Hanze UAS) that overwrite the CSS for a darkmode apperance. 
 
