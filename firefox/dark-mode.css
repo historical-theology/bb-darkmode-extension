@@ -175,15 +175,11 @@ body {
 }
 
 html {
-  background-color: #252525 !important;
+    background-color: #252525 !important;
 }
 
 .collapsible:hover {
   background-color: #313131 !important;
-}
-
-#My_Announcements_Tools {
-  background-color: #252525 !important;
 }
 
 .locationPane {
@@ -571,7 +567,7 @@ input[type="submit"].genericButton,
 
 .gradeTableNew .calculatedRow.row:nth-child(2) {
   border-radius: 0 0 10px 10px !important;
-  margin-bottom: 20px !important;
+  margin-bottom: 10px !important;
 }
 
 /* Grade row */
@@ -874,5 +870,26 @@ div.lb-wrapper div.lb-content {
 
 .bottom-buttons-help a.help,
 .bottom-buttons-home a.home {
-    background-image: url("http://i.imgur.com/uBVX3mP.png");
+    background-image: url("http://i.imgur.com/uBVX3mP.png") !important;
+}
+
+/* Unenroll */
+.steptitle,
+.submitStepBottom,
+div[id*="stepcontent"] {
+    background-color: transparent !important;
+    color: #fff !important;
+}
+
+.steptitle {
+    margin-left: none !important;
+    padding-left: none !important;
+}
+
+div[id*="step"],
+div[id*="Step"],
+#dataCollectionContainer {
+    background-color: #313131 !important;
+    border: none !important;
+    border-radius: 10px !important;
 }

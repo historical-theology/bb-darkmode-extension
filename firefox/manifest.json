@@ -3,7 +3,12 @@
   "manifest_version": 2,
   "name": "blackboard-darkmode",
   "version": "0.1",
-  "homepage_url": "https://github.com/KickingAnimal/bb-darkmode-extension",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "blackboard-dark@headtrixz"
+    }
+  },  
+  "homepage_url": "https://github.com/HeadTriXz/bb-darkmode-extension",
   "content_scripts": [
     {
       "matches": ["*://blackboard.hanze.nl/*", "*://hanze.blackboard.com/*"],
