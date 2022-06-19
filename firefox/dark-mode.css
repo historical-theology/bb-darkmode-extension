@@ -893,3 +893,8 @@ div[id*="Step"],
     border: none !important;
     border-radius: 10px !important;
 }
+
+/* Cookies */
+.lb-wrapper .CookieConsent .privacyPolicyContainer .consent-message p {
+    color: #fff !important;
+}
