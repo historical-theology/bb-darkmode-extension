@@ -5,6 +5,23 @@
   color: #fff;
 }
 
+#actionbar,
+#actionbar #nav {
+  background-color: #313131 !important;
+}
+
+div.viewHeader.clearfix,
+div.moduleActions.clearfix {
+  background-color: transparent !important;
+}
+
+.eesy-tab2.eesy-tab2-btn {
+  background-color: #313131 !important;
+  border-radius: 0 0 10px 10px !important;
+  box-shadow: none !important;
+  color: #fff !important;
+}
+
 #topTabs {
   background: #252525 !important;
 }
@@ -14,56 +31,12 @@
   border: none !important;
 }
 
-h2#anonymous_element_1,
-h2#anonymous_element_2,
-h2#anonymous_element_3,
-h2#anonymous_element_4,
-h2#anonymous_element_5,
-h2#anonymous_element_6,
-h2#anonymous_element_7,
-h2#anonymous_element_8,
-h2#anonymous_element_9,
-h2#anonymous_element_10,
-h2#anonymous_element_11,
-h2#anonymous_element_12,
-h2#anonymous_element_13,
-h2#anonymous_element_14,
-h2#anonymous_element_15,
-h2#anonymous_element_16,
-h2#anonymous_element_17,
-h2#anonymous_element_18,
-h2#anonymous_element_19,
-h2#anonymous_element_20,
-h2#anonymous_element_21,
-h2#anonymous_element_22,
-h2#anonymous_element_23 {
+.portlet .clearfix {
   background: #4f4f4f !important;
   border-radius: 10px 10px 0 0 !important;
 }
 
-#anonymous_element_1,
-#anonymous_element_2,
-#anonymous_element_3,
-#anonymous_element_4,
-#anonymous_element_5,
-#anonymous_element_6,
-#anonymous_element_7,
-#anonymous_element_8,
-#anonymous_element_9,
-#anonymous_element_10,
-#anonymous_element_11,
-#anonymous_element_12,
-#anonymous_element_13,
-#anonymous_element_14,
-#anonymous_element_15,
-#anonymous_element_16,
-#anonymous_element_17,
-#anonymous_element_18,
-#anonymous_element_19,
-#anonymous_element_20,
-#anonymous_element_21,
-#anonymous_element_22,
-#anonymous_element_23 {
+h1, h2, h3, h4, h5, h6 {
   color: #fff !important;
 }
 
@@ -80,14 +53,16 @@ h2#anonymous_element_23 {
 
 #content {
   background: #2b2b2b !important;
+  padding-bottom: 10px !important;
 }
 
 a,
 .portlet .subCategories li a,
 .blockGroups .itemHead,
 .blockGroups .itemHeadOpen {
-  color: #fff !important;
+  color: #00a8ea !important;
 }
+
 .portlet h2.dragHandle
 .edit_controls:hover ~ .collapsible, 
 h2.dragHandle:hover + .collapsible {
@@ -116,48 +91,48 @@ h2.dragHandle:hover + .collapsible {
 }
 
 .collapsible table {
-    color: #fff !important;
+  color: #fff !important;
 }
 
 .appTabs td {
-    padding-bottom: 0 !important;
+  padding-bottom: 0 !important;
 }
 
 table.bouncer,
 .paneTabs a {
-    border: none !important;
+  border: none !important;
 }
 
 
 .paneTabs .active a,
 .paneTabs .activepersonal a,
 .paneTabs .active h3 {
-    background-color: #474747 !important;
-    border-radius: 10px !important;
+  background-color: #474747 !important;
+  border-radius: 10px !important;
 }
 
 .paneTabs .active a:hover,
 .paneTabs .active a:focus,
 .paneTabs .activepersonal a:hover {
-    background-color: #5a5a5a !important;
+  background-color: #5a5a5a !important;
 }
 
 .paneTabs ul li[class=" "] a:hover,
 .paneTabs ul li[class=" "] a:focus {
-    background-color: #3d3d3d !important;
-    border-radius: 10px !important;
+  background-color: #3d3d3d !important;
+  border-radius: 10px !important;
 }
 
 .paneTabs ul li a {
-    color: #fff !important;
-    padding: 8px 24px !important;
-    margin: 4px 0 !important;
+  color: #fff !important;
+  padding: 8px 24px !important;
+  margin: 4px 0 !important;
 }
 
 .paneTabs ul .active,
 .paneTabs ul li {
-    transition-duration: 0.4s !important;
-    padding: 0 7px !important;
+  transition-duration: 0.4s !important;
+  padding: 0 7px !important;
 }
 
 #div_1_1 > h3:nth-child(2) {
@@ -175,7 +150,7 @@ body {
 }
 
 html {
-    background-color: #252525 !important;
+  background-color: #252525 !important;
 }
 
 .collapsible:hover {
@@ -318,6 +293,23 @@ div#copyright {
 .simplePath a:hover,
 .simplePath a:focus {
   color: #0070ff !important;
+}
+
+.appTabs a,
+.actionBar ul li a,
+.navPaletteContent a,
+.navPaletteContent h3 a,
+.path a, .simplePath a {
+  color: #fff !important;
+}
+
+.filterBarHorizontal ul li a,
+.filterBarHorizontal ul li a.active {
+  color: #fff !important;
+}
+
+.filterBarHorizontal ul li:hover {
+  cursor: pointer;
 }
 
 #contentArea,
@@ -484,6 +476,7 @@ input[type="submit"].genericButton,
 
 .blockGroups .itemHeadOpen {
   background-color: #4f4f4f !important;
+  border-radius: 10px !important;
 }
 
 .additional + p .warnFont, .noItems {
@@ -600,6 +593,11 @@ input[type="submit"].genericButton,
   background-color: none !important;
   background-image: none !important;
   background-image: none !important;
+}
+
+/* Submitted */
+.receiptBarHorizontal {
+  background-color: #313131 !important;
 }
 
 /* Grade details*/
@@ -848,53 +846,53 @@ div.lb-wrapper div.lb-content {
 
 /* Profile bar */
 .accordion_content {
-    background-color: #313131 !important;
-    box-shadow: none !important;
-    color: #fff !important;
+  background-color: #313131 !important;
+  box-shadow: none !important;
+  color: #fff !important;
 }
 
 .bottom-buttons,
 .flyout-menu .accordion_toggle span {
-    background-color: #4f4f4f !important;
-    border: 1px solid transparent !important;
-    color: #fff !important;
+  background-color: #4f4f4f !important;
+  border: 1px solid transparent !important;
+  color: #fff !important;
 }
 
 .bottom-buttons li {
-    border: none !important;
+  border: none !important;
 }
 
 .bottom-buttons li a:hover {
-    background-color: #5a5a5a !important;
+  background-color: #5a5a5a !important;
 }
 
 .bottom-buttons-help a.help,
 .bottom-buttons-home a.home {
-    background-image: url("http://i.imgur.com/uBVX3mP.png") !important;
+  background-image: url("http://i.imgur.com/uBVX3mP.png") !important;
 }
 
 /* Unenroll */
 .steptitle,
 .submitStepBottom,
 div[id*="stepcontent"] {
-    background-color: transparent !important;
-    color: #fff !important;
+  background-color: transparent !important;
+  color: #fff !important;
 }
 
 .steptitle {
-    margin-left: none !important;
-    padding-left: none !important;
+  margin-left: none !important;
+  padding-left: none !important;
 }
 
 div[id*="step"],
 div[id*="Step"],
 #dataCollectionContainer {
-    background-color: #313131 !important;
-    border: none !important;
-    border-radius: 10px !important;
+  background-color: #313131 !important;
+  border: none !important;
+  border-radius: 10px !important;
 }
 
 /* Cookies */
 .lb-wrapper .CookieConsent .privacyPolicyContainer .consent-message p {
-    color: #fff !important;
+  color: #fff !important;
 }
