@@ -1,8 +1,8 @@
 {
-  "description": "overwrites (most) color css for hanze blackboard to create a dark mode.",
+  "description": "Overwrites color css for Hanze's Blackboard to create a dark mode.",
   "manifest_version": 2,
   "name": "blackboard-darkmode",
-  "version": "0.1",
+  "version": "0.2",
   "browser_specific_settings": {
     "gecko": {
       "id": "blackboard-dark@headtrixz"
