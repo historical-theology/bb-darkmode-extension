@@ -1,0 +1,28 @@
+.container,
+.footer,
+.header,
+.sidebar2,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    background: #2b2b2b !important;
+    color: #fff !important;
+}
+
+#Insert_logo {
+    background: #2b2b2b !important;
+    content: url("https://blackboard.hanze.nl/branding/_1_1/logo%20nieuw.png");
+}
+
+.footer img {
+    content: url("https://i.imgur.com/dboNeru.png");
+}
+
+a img {
+    content: url("https://i.imgur.com/4WnR8bU.png");
+}
