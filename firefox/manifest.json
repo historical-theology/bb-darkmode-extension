@@ -2,7 +2,7 @@
   "description": "Overwrites color css for Hanze's Blackboard to create a dark mode.",
   "manifest_version": 2,
   "name": "blackboard-darkmode",
-  "version": "0.3",
+  "version": "0.4",
   "browser_specific_settings": {
     "gecko": {
       "id": "blackboard-dark@headtrixz"
@@ -13,16 +13,16 @@
     {
       "matches": ["*://blackboard.hanze.nl/*", "*://hanze.blackboard.com/*"],
       "exclude_matches": [
-        "*://blackboard.hanze.nl/webapps/login/",
-        "*://hanze.blackboard.com/webapps/login/"
+        "*://blackboard.hanze.nl/webapps/login/*",
+        "*://hanze.blackboard.com/webapps/login/*"
       ],
       "css": ["dark-mode.css"],
       "run_at": "document_start"
     },
     {
         "matches": [
-          "*://blackboard.hanze.nl/webapps/login/",
-          "*://hanze.blackboard.com/webapps/login/"
+          "*://blackboard.hanze.nl/webapps/login/*",
+          "*://hanze.blackboard.com/webapps/login/*"
         ],
         "css": ["login.css"],
         "run_at": "document_start"

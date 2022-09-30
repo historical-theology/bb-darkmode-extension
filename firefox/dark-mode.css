@@ -428,7 +428,9 @@ input[type="submit"].genericButton,
 .rumble .abutton,
 .rumble_top .abutton {
   background-color: #4f4f4f !important;
+  border-radius: 7px !important;
   box-shadow: none !important;
+  color: #fff !important;
 }
 
 .eval-links .genericButton,
@@ -890,9 +892,44 @@ div[id*="Step"],
   background-color: #313131 !important;
   border: none !important;
   border-radius: 10px !important;
+  padding: 15px !important;
+  margin: 0px !important;
 }
 
 /* Cookies */
 .lb-wrapper .CookieConsent .privacyPolicyContainer .consent-message p {
   color: #fff !important;
+}
+
+/* Tests */
+.infoListWrapper {
+  background: #313131 !important;
+  border: none !important;
+  border-radius: 10px !important;
+}
+
+.nav .sub ul, 
+.nav.gb_currView .sub > ul,
+.menumini ul,
+.quickAddPal,
+.keyboardAccess,
+span.currentTags,
+.liveArea,
+.liveArea-slim,
+.previewArea,
+.jumptopage,
+.panelTabs li.active a.edit,
+.panelTabs li.active a.edit:hover,
+.panelTabs li.active a.edit:focus,
+.flyout,
+.bcContent .flyout,
+ul.tree li a + img + a:focus,
+ul.tree li img + img + a:focus,
+div.treeContainer ul.tree li a.itemActive,
+#learningUnitToc ul.tree li a.itemActive,
+ul.tree li a.itemActive,
+#loginLang ul {
+  background: #2b2b2b !important;
+  border: none !important;
+  border-radius: 10px !important;
 }

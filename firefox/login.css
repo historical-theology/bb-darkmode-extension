@@ -10,19 +10,23 @@ h4,
 h5,
 h6,
 p {
-    background: #2b2b2b !important;
-    color: #fff !important;
+  background: #2b2b2b !important;
+  color: #fff !important;
 }
 
 #Insert_logo {
-    background: #2b2b2b !important;
-    content: url("https://blackboard.hanze.nl/branding/_1_1/logo%20nieuw.png");
+  background: #2b2b2b !important;
+  content: url("https://blackboard.hanze.nl/branding/_1_1/logo%20nieuw.png");
 }
 
 .footer img {
-    content: url("https://i.imgur.com/dboNeru.png");
+  content: url("https://i.imgur.com/dboNeru.png");
 }
 
 a img {
-    content: url("https://i.imgur.com/4WnR8bU.png");
+  content: url("https://i.imgur.com/4WnR8bU.png");
+}
+
+a {
+  color: #EE7F00 !important;
 }
